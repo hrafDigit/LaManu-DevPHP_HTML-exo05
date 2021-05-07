@@ -10,18 +10,16 @@
 <body>
 	<!-- Tableau utilisant thead, tfoot, et tbody -->
 	<table>
-		<thead>
+        <caption>Mon compte bancaire*</caption>
+        <thead>
 			<tr>
-				<th colspan="4" style="font-weight: normal;">Mon compte bancaire*</th>
+				<th><strong>Date</strong></th>
+				<th><strong>Libellé</strong></th>
+				<th><strong>Crédit</strong></th>
+				<th><strong>Débit</strong></th>
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
-				<td><strong>Date</strong></td>
-				<td><strong>Libellé</strong></td>
-				<td><strong>Crédit</strong></td>
-				<td><strong>Débit</strong></td>
-			</tr>
 			<tr>
 				<td><time datetime="2016-05-01">01/05/2016</time></td>
 				<td>Paye</td>
@@ -55,10 +53,9 @@
 		</tbody>
 		<tfoot>
 			<tr>
-				<td>Solde</td>
-				<td></td>
+				<td colspan="2">Solde</td>
 				<!-- <td>575,40 €</td> -->
-				<td>575,40 &euro;</td>
+				<td colspan="2" >575,40 &euro;</td>
 				<!-- <td>575,40 &#x020AC;</td> -->
 				<!-- <td>575,40 &#8364;</td> -->
 				<td></td>
